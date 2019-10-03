@@ -29,9 +29,10 @@ class Cat {
     }
 
     speak(){
-        if (this.sex = `male`)
-        return `It's me! ${this.name}, the parrot!`
-        else
+        if (this.sex == "male"){
+        return `It's me! ${this.name}, the parrot!`}
+        else{
         return `${this.name} says squawk!`
+        }
         }
   }
